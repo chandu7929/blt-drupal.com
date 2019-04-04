@@ -13,21 +13,19 @@ use Drupal\user\EntityOwnerInterface;
  */
 interface BooksEntityInterface extends ContentEntityInterface, EntityChangedInterface, EntityOwnerInterface {
 
-  // Add get/set methods for your configuration properties here.
-
   /**
-   * Gets the Books name.
+   * Gets the Books title.
    *
    * @return string
-   *   Name of the Books.
+   *   Title of the Books.
    */
   public function getTitle();
 
   /**
-   * Sets the Books name.
+   * Sets the Books title.
    *
-   * @param string $name
-   *   The Books name.
+   * @param string $title
+   *   The Books title.
    *
    * @return \Drupal\books\Entity\BooksEntityInterface
    *   The called Books entity.

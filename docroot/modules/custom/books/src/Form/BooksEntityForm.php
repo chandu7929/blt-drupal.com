@@ -19,8 +19,6 @@ class BooksEntityForm extends ContentEntityForm {
     /* @var $entity \Drupal\books\Entity\BooksEntity */
     $form = parent::buildForm($form, $form_state);
 
-    $entity = $this->entity;
-
     return $form;
   }
 
