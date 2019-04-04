@@ -1,0 +1,14 @@
+uuid: 840b156e-c693-4188-ad16-41a3abbb9359
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content
+label: Books
+path: solr
+weight: 0
+plugin: node_search
+configuration:
+  rankings:
+    recent: 10

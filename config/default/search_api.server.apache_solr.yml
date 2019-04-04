@@ -1,0 +1,32 @@
+uuid: 886df707-8d77-4374-a3b0-c4ff6e072b07
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_solr
+id: apache_solr
+name: 'Apache solr'
+description: 'Apache solr'
+backend: search_api_solr
+backend_config:
+  connector: standard
+  connector_config:
+    scheme: http
+    host: 127.0.0.1
+    port: '8983'
+    path: /solr
+    core: blt-drupal
+    timeout: 5
+    index_timeout: 5
+    optimize_timeout: 10
+    commit_within: 1000
+    solr_version: ''
+    http_method: AUTO
+  retrieve_data: true
+  highlight_data: false
+  excerpt: false
+  skip_schema_check: false
+  site_hash: false
+  suggest_suffix: true
+  suggest_corrections: true
+  suggest_words: false

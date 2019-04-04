@@ -1,0 +1,82 @@
+uuid: 1650cdc9-16ca-4e69-a822-5c82f77fca95
+langcode: en
+status: true
+dependencies:
+  module:
+    - books
+    - search_api
+  config:
+    - search_api.server.apache_solr
+id: blt_drupal
+name: blt-drupal
+description: ''
+read_only: false
+field_settings:
+  changed:
+    label: Changed
+    datasource_id: 'entity:books_entity'
+    property_path: changed
+    type: date
+    dependencies:
+      module:
+        - books
+  created:
+    label: Created
+    datasource_id: 'entity:books_entity'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - books
+  description:
+    label: Description
+    datasource_id: 'entity:books_entity'
+    property_path: description
+    type: text
+    dependencies:
+      module:
+        - books
+  id:
+    label: ID
+    datasource_id: 'entity:books_entity'
+    property_path: id
+    type: integer
+    dependencies:
+      module:
+        - books
+  title:
+    label: Title
+    datasource_id: 'entity:books_entity'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - books
+  url:
+    label: URI
+    property_path: search_api_url
+    type: string
+  user_id:
+    label: 'Authored by'
+    datasource_id: 'entity:books_entity'
+    property_path: user_id
+    type: integer
+    dependencies:
+      module:
+        - books
+datasource_settings:
+  'entity:books_entity':
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: false
+  cron_limit: 50
+server: apache_solr

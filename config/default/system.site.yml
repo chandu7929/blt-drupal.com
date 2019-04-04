@@ -1,0 +1,14 @@
+uuid: e7211632-d281-424b-b1b3-f6512da5ef62
+name: 'Drupal 8 blt project'
+mail: no-reply@acquia.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,36 @@
+uuid: 49bb4e06-df17-4b7e-a544-d43638a850ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - books
+    - text
+    - user
+id: books_entity.books_entity.default
+targetEntityType: books_entity
+bundle: books_entity
+mode: default
+content:
+  description:
+    label: above
+    type: text_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  user_id:
+    label: hidden
+    type: author
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
