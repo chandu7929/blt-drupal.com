@@ -1,0 +1,43 @@
+name: BLT Drupal
+core: 8.x
+type: profile
+base: lightning
+description: 'A fast and feature-rich Drupal profile.'
+install:
+  - block_content
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - menu_link_content
+  - datetime
+  - quickedit
+  - editor
+  - entity_reference
+  - entity_block
+  - help
+  - history
+  - menu_ui
+  - node
+  - options
+  - path
+  - pathauto
+  - page_cache
+  - taxonomy
+  - text
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - diff
+  - image_widget_crop
+  - metatag
+  - moderation_dashboard
+  - moderation_sidebar
+themes:
+  - blt_drupal
+  - bartik
+  - seven

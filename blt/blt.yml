@@ -1,9 +1,9 @@
 project:
-  machine_name: blt-drupal.com
+  machine_name: blt-drupal
   prefix: BLT
-  human_name: 'Drupal 8 blt project'
+  human_name: 'D8 Acquia BLT project'
   profile:
-    name: standard
+    name: blt_drupal
   local:
     protocol: http
     hostname: '${project.machine_name}.com'

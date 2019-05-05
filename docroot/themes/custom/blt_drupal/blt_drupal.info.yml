@@ -1,0 +1,20 @@
+name: BLT Drupal
+type: theme
+base theme: cog
+description: Standard theme for BLT Drupal.
+package: Custom
+core: 8.x
+libraries:
+  - blt_drupal/global
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
