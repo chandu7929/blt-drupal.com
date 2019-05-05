@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6dc02f1fce782ccf4925ba260d897315",
+    "content-hash": "1db0247c3ff39727788440aeab057efe",
     "packages": [
         {
             "name": "acquia/blt",
@@ -5491,80 +5491,6 @@
                 "source": "http://cgit.drupalcode.org/libraries",
                 "issues": "http://drupal.org/project/issues/libraries",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
-        },
-        {
-            "name": "drupal/lightning",
-            "version": "3.300.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/lightning.git",
-                "reference": "8.x-3.300"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lightning-8.x-3.300-core.zip",
-                "reference": "8.x-3.300",
-                "shasum": "09da88102d3b86e915bd02073c916eee162992d2"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-profile",
-            "extra": {
-                "branch-alias": {
-                    "dev-3.x": "3.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-3.300",
-                    "datestamp": "1556758085",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Bcwald",
-                    "homepage": "https://www.drupal.org/user/215794"
-                },
-                {
-                    "name": "Devin Carlson",
-                    "homepage": "https://www.drupal.org/user/290182"
-                },
-                {
-                    "name": "acquia",
-                    "homepage": "https://www.drupal.org/user/1231722"
-                },
-                {
-                    "name": "balsama",
-                    "homepage": "https://www.drupal.org/user/223087"
-                },
-                {
-                    "name": "brantwynn",
-                    "homepage": "https://www.drupal.org/user/252788"
-                },
-                {
-                    "name": "phenaproxima",
-                    "homepage": "https://www.drupal.org/user/205645"
-                },
-                {
-                    "name": "samuel.mortenson",
-                    "homepage": "https://www.drupal.org/user/2582268"
-                },
-                {
-                    "name": "tim.plunkett",
-                    "homepage": "https://www.drupal.org/user/241634"
-                }
-            ],
-            "homepage": "https://www.drupal.org/project/lightning",
-            "support": {
-                "source": "https://git.drupalcode.org/project/lightning"
             }
         },
         {

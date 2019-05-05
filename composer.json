@@ -7,8 +7,7 @@
   "require":
   {
     "acquia/blt": "^9.0.0",
-    "drupal/console": "~1.0",
-    "drupal/lightning": "^3.300"
+    "drupal/console": "~1.0"
   },
   "require-dev":
   {},
