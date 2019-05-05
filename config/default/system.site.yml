@@ -1,11 +1,11 @@
-uuid: e7211632-d281-424b-b1b3-f6512da5ef62
-name: 'Drupal 8 blt project'
+uuid: 48319bd8-52e3-41b0-af98-14620e98856f
+name: 'D8 Acquia BLT project'
 mail: no-reply@acquia.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

@@ -1,0 +1,8 @@
+# Schema for the configuration files of the BLT Drupal theme.
+blt_drupal.settings:
+  type: theme_settings
+  label: 'BLT Drupal settings'
+  mapping:
+    font_size:
+      type: integer
+      label: Font size

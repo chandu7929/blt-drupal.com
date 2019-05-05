@@ -1,5 +1,0 @@
-name: 'books'
-type: module
-description: 'My Books'
-core: 8.x
-package: 'Custom'
