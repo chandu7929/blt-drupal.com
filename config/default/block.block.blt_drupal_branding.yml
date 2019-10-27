@@ -1,0 +1,25 @@
+uuid: 7ac5570d-0834-4619-b616-ab4fc288428d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blt_drupal
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: blt_drupal_branding
+theme: blt_drupal
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

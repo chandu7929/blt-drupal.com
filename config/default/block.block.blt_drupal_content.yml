@@ -1,0 +1,22 @@
+uuid: 103896ac-7d2a-4129-8310-2d1081969f45
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blt_drupal
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: blt_drupal_content
+theme: blt_drupal
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

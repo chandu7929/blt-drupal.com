@@ -1,0 +1,20 @@
+uuid: 2f1a63e4-76c0-4154-bd7b-92cefd0ac82b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - blt_drupal
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: blt_drupal_local_actions
+theme: blt_drupal
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

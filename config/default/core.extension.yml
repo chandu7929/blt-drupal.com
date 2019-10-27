@@ -1,20 +1,21 @@
 module:
+  automated_cron: 0
+  big_pipe: 0
   block: 0
   block_content: 0
   breakpoint: 0
   ckeditor: 0
+  color: 0
+  comment: 0
   config: 0
-  content_moderation: 0
+  config_filter: 0
+  config_split: 0
+  contact: 0
   contextual: 0
-  crop: 0
-  ctools: 0
   datetime: 0
   dblog: 0
-  devel: 0
-  diff: 0
+  dynamic_page_cache: 0
   editor: 0
-  entity_block: 0
-  entity_reference: 0
   field: 0
   field_ui: 0
   file: 0
@@ -22,35 +23,26 @@ module:
   help: 0
   history: 0
   image: 0
-  image_widget_crop: 0
-  layout_discovery: 0
   link: 0
   menu_ui: 0
-  metatag: 0
-  moderation_dashboard: 0
-  moderation_sidebar: 0
   node: 0
   options: 0
   page_cache: 0
-  page_manager: 0
-  panels: 0
   path: 0
   quickedit: 0
   rdf: 0
-  seckit: 0
+  search: 0
   shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
-  token: 0
   toolbar: 0
+  tour: 0
   user: 0
   views_ui: 0
-  workflows: 0
   menu_link_content: 1
-  pathauto: 1
   views: 10
-  blt_drupal: 1000
+  standard: 1000
 theme:
   stable: 0
   classy: 0
@@ -58,6 +50,6 @@ theme:
   seven: 0
   cog: 0
   blt_drupal: 0
-profile: blt_drupal
+profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

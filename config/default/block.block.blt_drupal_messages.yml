@@ -1,0 +1,22 @@
+uuid: 1fb062c0-c983-4fe0-b181-af3b849ae1e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blt_drupal
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: blt_drupal_messages
+theme: blt_drupal
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

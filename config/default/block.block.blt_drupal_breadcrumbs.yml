@@ -1,0 +1,22 @@
+uuid: 3481e30b-2f90-4476-8a4b-563da0efb835
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blt_drupal
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: blt_drupal_breadcrumbs
+theme: blt_drupal
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
