@@ -9,4 +9,5 @@ Follow below steps to setup this site:
 3. Run composer run-script blt-alias.
 4. Run source ~/.bash_profile.
 5. Update your site details like DB,user,driver in local.settings.php
-6. Finally run blt setup.
+6. Run run blt setup.
+7. Finally run blt dci.
